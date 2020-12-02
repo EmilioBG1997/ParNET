@@ -4,7 +4,7 @@
             <div class="col-lg-1 d-none d-lg-block">
                 <img src="Assets/img/logotipo.png" class="img-fluid">
             </div>
-            <div class="col-lg-10 d-flex justify-content-around align-items-center">
+            <div class="col-lg-10 d-flex justify-content-around align-items-center flex-wrap">
                 <a class="a-size" href="#">Pagina Principal</a>
                 <a class="a-size" href="#">¿Quienes Somos?</a>
                 <a class="a-size" href="#">Clientes</a>

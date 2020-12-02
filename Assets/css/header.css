@@ -1,7 +1,9 @@
 .header{
     background-image: url("../img/Forma 1.png");
 }
-
+.header img{
+    max-width: 100%;
+}
 .menu-head{
     background-color: #6498C5;
 }
