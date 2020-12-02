@@ -22,6 +22,9 @@
 }
 .panel-button{
     background: url("../img/panel de control.png");
+    background-size: cover;
+    display: inline-block;
+    width: 90%;
     padding: 0 .2rem 0 .2rem;
 }
 .area-header{
