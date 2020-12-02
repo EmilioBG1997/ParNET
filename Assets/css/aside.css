@@ -1,3 +1,8 @@
+.aside{
+    min-height: inherit;
+    background: #013f8b;
+    background-size: cover;
+}
 .noticias-header{
     background: url("../img/header noticias.png");
     background-size: cover;
