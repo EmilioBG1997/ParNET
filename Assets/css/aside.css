@@ -1,0 +1,22 @@
+.noticias-header{
+    background: url("../img/header noticias.png");
+    background-size: cover;
+}
+.noticias-content{
+    height: 10rem;
+    overflow-y: scroll;
+    background: url("../img/bg_noticias.png");
+    background-size: cover;
+    color: white;
+}
+.control-panel{
+    background: url("../img/bg_noticias.png");
+    background-size: cover;
+}
+.panel-button{
+    background: url("../img/panel de control.png");
+    padding: 0 .2rem 0 .2rem;
+}
+.area-header{
+    background: url("../img/header_menu_version\ 1.png");
+}
