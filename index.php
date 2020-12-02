@@ -11,7 +11,7 @@
         <?php require "view/header.php"?>
 
         <!-- ASIDE -->
-        <?php require "view/aside.html"?>
+        <?php require "view/aside.php"?>
 
         <!-- FOOTER -->
         <?php require "view/footer.php"?>
