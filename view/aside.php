@@ -43,4 +43,10 @@
             <img src="Assets/img/marcas y provedores.png" alt="">
         </div>
     </div>
+
+    <div class = "row text-center">
+        <div class = "marcas-y-proveedores">
+            <img src="Assets/img/contador u conactados.png" alt="">
+        </div>
+    </div>
 </div>
