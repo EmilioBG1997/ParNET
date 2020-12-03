@@ -16,7 +16,7 @@
                 <?php require "view/aside.php"?>
 
                 <div class = "col-md-9 main-content" id="main"> 
-                    <?php require "view/main.php";?>        
+                    <?php require "view/socios.php";?>        
                 </div> <!-- main -->
 
 
