@@ -1,7 +1,7 @@
 <?php
 
 require "../model/NoticiasModel.php";
-$flag = $POST["flag"];
+$flag = $_POST["flag"];
 $noticias = new Noticias();
 switch ($flag) {
     /**

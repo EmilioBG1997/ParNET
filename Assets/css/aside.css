@@ -9,7 +9,6 @@
     width: 100%;
 }
 .noticias-content{
-    height: 10rem;
     overflow-y: scroll;
     background: url("../img/bg_noticias.png");
     background-size: cover;

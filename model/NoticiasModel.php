@@ -8,7 +8,7 @@ class Noticias extends DbConnection{
     public function __construct()
     {
         parent::__construct();
-        $this->$noticias= Array();
+        $this->noticias= Array();
     }
 
     /**MOSTRAR TODAS LAS NOTICIAS */
@@ -17,7 +17,7 @@ class Noticias extends DbConnection{
         $resultado = mysqli_query($this->conn,$sql)or die (mysqli_error($this->conn));
         if(mysqli_num_rows($resultado)>0){
             while($row = $resultado->fetch_assoc()){
-                $this->noticias[]=$row;
+                $this->noticias["data"][]=$row;
             }
             return json_encode($this->noticias);
         }
