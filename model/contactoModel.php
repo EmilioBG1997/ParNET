@@ -41,8 +41,7 @@ class Contacto extends DbConnection{
         }
     }  
 
-    public function updateContacto($id, $nombre, $correo, $empresa, $telefono)
-    {
+    public function updateContacto($id, $nombre, $correo, $empresa, $telefono){
         $id = $this->conn->real_escape_string($id);
         $nombre = $this->conn->real_escape_string($nombre);
         $empresa = $this->conn->real_escape_string($empresa);
