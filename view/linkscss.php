@@ -5,3 +5,10 @@
 <link rel="stylesheet" href="Assets/css/aside.css">
 <link rel="stylesheet" href="Assets/css/footer.css">
 <link rel="stylesheet" href="Assets/css/index.css">
+<link rel="stylesheet" href="Assets/css/QuienesSomos.css">
+<link rel="stylesheet" href="Assets/css/casosexito.css">
+<link rel="stylesheet" href="Assets/css/clientes.css">
+<link rel="stylesheet" href="Assets/css/servicios.css">
+<link rel="stylesheet" href="Assets/css/productos.css">
+<link rel="stylesheet" href="Assets/css/contactos.css">
+<link rel="stylesheet" href="Assets/css/socios.css">
