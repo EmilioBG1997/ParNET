@@ -5,3 +5,5 @@
 <link rel="stylesheet" href="Assets/css/aside.css">
 <link rel="stylesheet" href="Assets/css/footer.css">
 <link rel="stylesheet" href="Assets/css/index.css">
+<link rel="stylesheet" href="Assets/css/QuienesSomos.css">
+<link rel="stylesheet" href="Assets/css/casosexito.css">
