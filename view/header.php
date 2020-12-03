@@ -29,14 +29,14 @@
             </div>
             <div class="row menu-options d-none d-lg-block">
                 <div class="col-sm-12 d-flex justify-content-around">
-                   <a id="h-principal" href="#"><img src="Assets/img/btn pagina principal.png" alt=""></a>
-                   <a id="h-quienes-somos" href="#"><img src="Assets/img/btn quienes somos_.png" alt=""></a>
-                   <a id="h-clientes" href="#"><img src="Assets/img/btn clientes.png" alt=""></a>
-                   <a id="h-servicios" href="#"><img src="Assets/img/btn servicios.png" alt=""></a>
-                   <a id="h-productos" href="#"><img src="Assets/img/btn productos.png" alt=""></a>
-                   <a id="h-casos-exito" href="#"><img src="Assets/img/btn casos de exito.png" alt=""></a>
-                   <a id="h-contactos" href="#"><img src="Assets/img/btn contactos.png" alt=""></a>
-                   <a id="h-socios" href="#"><img src="Assets/img/btn socios.png" alt=""></a>
+                   <a id="h-principal" href=""><img src="Assets/img/btn pagina principal.png" alt=""></a>
+                   <a id="h-quienes-somos" href=""><img src="Assets/img/btn quienes somos_.png" alt=""></a>
+                   <a id="h-clientes" href=""><img src="Assets/img/btn clientes.png" alt=""></a>
+                   <a id="h-servicios" href=""><img src="Assets/img/btn servicios.png" alt=""></a>
+                   <a id="h-productos" href=""><img src="Assets/img/btn productos.png" alt=""></a>
+                   <a id="h-casos-exito" href=""><img src="Assets/img/btn casos de exito.png" alt=""></a>
+                   <a id="h-contactos" href=""><img src="Assets/img/btn contactos.png" alt=""></a>
+                   <a id="h-socios" href=""><img src="Assets/img/btn socios.png" alt=""></a>
                 </div>
             </div>
         </div>
