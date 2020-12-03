@@ -1,5 +1,5 @@
 <?php
-require "../model/contactoModel.php"
+require "../model/contactoModel.php";
 $flag = $_POST["flag"];
 $cont = new Contacto();
 switch ($flag) {
@@ -25,7 +25,7 @@ switch ($flag) {
         $id = $_POST["id"];
         $nombre = $_POST["nombre"];
         $correo = $_POST["correo"];
-        $empresa = $_POST["empresa"]
+        $empresa = $_POST["empresa"];
         $telefono = $_POST["telefono"];
         $resultado = $cont->updateContacto($id,$nombre,$correo, $empresa, $telefono);
         echo $resultado;
@@ -36,7 +36,7 @@ switch ($flag) {
     case 4:
         $nombre = $_POST["nombre"];
         $correo = $_POST["correo"];
-        $empresa = $_POST["empresa"]
+        $empresa = $_POST["empresa"];
         $telefono = $_POST["telefono"];
         $resultado = $cont->createCont($nombre, $correo, $empresa, $telefono);
         echo $resultado;
