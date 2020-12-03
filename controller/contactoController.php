@@ -24,7 +24,7 @@ switch ($flag) {
     case 3:
         $id = $_POST["id"];
         $nombre = $_POST["nombre"];
-        $correo = $_POST["correo"];
+        $correo = $_POST["email"];
         $empresa = $_POST["empresa"];
         $telefono = $_POST["telefono"];
         $resultado = $cont->updateContacto($id,$nombre,$correo, $empresa, $telefono);
@@ -35,10 +35,10 @@ switch ($flag) {
      */
     case 4:
         $nombre = $_POST["nombre"];
-        $correo = $_POST["correo"];
+        $correo = $_POST["email"];
         $empresa = $_POST["empresa"];
         $telefono = $_POST["telefono"];
-        $resultado = $cont->createCont($nombre, $correo, $empresa, $telefono);
+        $resultado = $cont->createContacto($nombre, $correo, $empresa, $telefono);
         echo $resultado;
         break;
 

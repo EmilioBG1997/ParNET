@@ -10,13 +10,13 @@
                 <div class="col-lg-8">
                     <div class="form-group">
                       <label for="iNombreServicio">Nombre del servicio</label>
-                      <input type="text" name="iNombreServicio" id="iNombreServicio" class="form-control">
+                      <input type="text" name="iNombreServicio" id="iNombreServicio" class="form-control" required>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="form-group">
                         <label for="sArea">Area</label>
-                        <select class="form-control" name="sArea" id="sArea">
+                        <select class="form-control" name="sArea" id="sArea" required>
                         </select>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                 <div class="col-lg-12">
                     <div class="form-group">
                       <label for="iDetalles">Detalles</label>
-                      <textarea class="form-control" name="iDetalles" id="iDetalles" rows="15"></textarea>
+                      <textarea class="form-control" name="iDetalles" id="iDetalles" rows="15" required></textarea>
                     </div>
                 </div>
             </div>
@@ -49,4 +49,5 @@
         };
     </script>
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+    <script src="Assets/js/servicios.js"></script>
 </section>
