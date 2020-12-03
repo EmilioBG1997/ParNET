@@ -1,0 +1,44 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="titulo">Registro de Servicios</h1>
+            </div>
+        </div>
+        <form id="formulario-servicios">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="form-group">
+                      <label for="iNombreServicio">Nombre del servicio</label>
+                      <input type="text" name="iNombreServicio" id="iNombreServicio" class="form-control">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="sArea">Area</label>
+                        <select class="form-control" name="sArea" id="sArea">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                      <label for="iDetalles">Detalles</label>
+                      <textarea class="form-control" name="iDetalles" id="iDetalles" rows="15"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                     <div id="captcha"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary pull-right">Registrar Servicio</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
