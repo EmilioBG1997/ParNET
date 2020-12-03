@@ -7,10 +7,8 @@
         </div>
     </div>
     <div class = "row">
-        <div class = "noticias-content overflow-auto text-center">
-           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda excepturi unde suscipit debitis quae amet odit sed ratione obcaecati! Exercitationem iusto nesciunt corporis mollitia quo fugit quia laborum facilis. Explicabo?</p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iste vel, at quos quae sunt commodi! Labore nihil commodi qui illo, repudiandae, assumenda libero quisquam amet aliquam, dolor nisi saepe.</p>
-           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum commodi alias laudantium unde veniam fugiat ipsum esse tenetur cumque. Quo dolorem sapiente porro alias at amet, corrupti aut quaerat?</p>
+        <div class = "noticias-content overflow-auto text-center" id="noticias-content">
+          
         </div>
     </div>
     <div class = "row">
