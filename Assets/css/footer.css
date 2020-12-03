@@ -4,7 +4,9 @@
     text-decoration: underline;
 }
 
-
+.a-size:hover{
+    color: black;
+}
 
 .footer{
     background-image: url("../img/bg.png");
