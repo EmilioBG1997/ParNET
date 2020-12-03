@@ -1,6 +1,6 @@
 <?php
 
-require "../model/ProductoModel.php"
+require "../model/productoModel.php";
 $flag = $POST["flag"];
 $producto = new ProductoModel();
 switch ($flag) {
