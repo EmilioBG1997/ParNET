@@ -28,3 +28,15 @@ $(function () {
     });
 });
 
+$(function () {
+    $("#h-contactos").click(function (e) { 
+        $("#main").load('view/socios.php');
+    });
+});
+
+$(function () {
+    $("#h-contactos").click(function (e) { 
+        $("#main").load('view/servicios.php');
+    });
+});
+
