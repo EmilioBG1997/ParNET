@@ -1,7 +1,7 @@
 <?php
 
 require "../model/productoModel.php";
-$flag = $POST["flag"];
+$flag = $_POST["flag"];
 $producto = new ProductoModel();
 switch ($flag) {
     /**

@@ -19,8 +19,6 @@
                     <?php require "view/main.php";?>        
                 </div> <!-- main -->
 
-
-
             </div>
         </div>
         <!-- FOOTER -->
