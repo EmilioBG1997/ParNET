@@ -34,7 +34,7 @@ $(function () {
                             grecaptcha.reset()
                             Swal.fire({
                                 icon:'success',
-                                titulo:'GRACIAS',
+                                title:'GRACIAS',
                                 text: 'El registro ha sido registrado correctamente'
 
                             });
