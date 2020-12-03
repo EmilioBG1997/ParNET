@@ -1,5 +1,5 @@
 <?php
-require "../model/contactoModel.php";
+require "../model/usuariosModel.php";
 $flag = $_POST["flag"];
 $cont = new Usuarios();
 
@@ -9,14 +9,17 @@ switch ($flag) {
      */
     case 1:
         $email = $_POST['email'];
-        $contrasena = $_POST['password']
-        $resultado = $cont->readUsuarios($email, $contrasena);
+        $contrasena = $_POST['password'];
+        $resultado = $cont->readUsuario($email, $contrasena);
         if($resultado){
+            if(isset($_SESSION)){
+                session_destroy();
+            }
+            session_id("secreto");
             session_start();
             $_SESSION["email"] = $email;
-            session_id("secreto");
             echo 0;
-        };
+        }
         else{
             echo 1;
         }
@@ -26,7 +29,7 @@ switch ($flag) {
      */
     case 2:
         $email = $_POST["email"];
-        $contrasena = $_POST["contrasena"]
+        $contrasena = $_POST["contrasena"];
         $resultado = $cont->deleteUsuario($email,$contrasena);
         echo $resultado;
         break;
@@ -37,7 +40,7 @@ switch ($flag) {
         $email = $_POST["email"];
         $password = $_POST["contrasena"];
         $nuevo_email = $_POST["nuevo_email"];
-        $nuevo_password = $_POST["nuevo_password"]
+        $nuevo_password = $_POST["nuevo_password"];
         $resultado = $cont->updateUsuario($email,$contrasena,$nuevo_email, $nuevo_password);
         echo $resultado;
         break;

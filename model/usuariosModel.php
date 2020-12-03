@@ -32,8 +32,7 @@ class Usuarios extends DbConnection{
             }
             return json_encode($this->usuario);
         }
-        $this->servicio= array("data"=>[]);
-        return json_encode($this->servicio);
+        return FALSE;
     }
 
     public function updateUsuario($email, $contrasena, $email_nuevo, $contra_nueva){
