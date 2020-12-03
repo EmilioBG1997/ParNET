@@ -15,7 +15,7 @@
     </div>
     <div class = "row">
         <div class = "control-panel text-center">
-            <a href="#" class = "panel-button">
+            <a href="view/login.php" class = "panel-button">
                 <img src="Assets/img/Control Panel PARNET.png" alt="">
             </a>
         </div>
