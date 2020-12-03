@@ -14,3 +14,10 @@ table.dataTable tbody tr{
 .dataTables_wrapper .dataTables_filter input{
     background-color: white !important;
 }
+
+.btn{
+    background-color: rgb(9, 143, 38);
+    color: white;
+}
+
+

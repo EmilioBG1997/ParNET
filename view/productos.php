@@ -20,5 +20,8 @@
             </table>
         </div>
     </div>
+    <div class = "col-md-12 text-right form-group">
+    <a href="view/pedido.php"><button type="button" class = "btn">Solicitar Pedido</button></a>
+    </div>
 <script src="Assets/js/productos.js"></script>
 </section>
