@@ -28,6 +28,7 @@ class Servicios extends DbConnection{
             }
             return json_encode($this->servicio);
         }
+        $this->servicio= array("data"=>[]);
         return json_encode($this->servicio);
     }
 
