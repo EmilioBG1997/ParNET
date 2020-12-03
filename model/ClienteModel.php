@@ -74,12 +74,4 @@ class ClienteModel extends DbConnection{
         }
     }
 }
-
-/**
- * 
- */
-$obj = new ClienteModel();
-$catalago = $obj->deleteCliente(3);
-echo $catalago;
-
 ?>
