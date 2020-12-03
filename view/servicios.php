@@ -41,4 +41,12 @@
             </div>
         </form>
     </div>
+    <script>
+        var onloadCallback = function() {
+            grecaptcha.render('captcha', {
+                'sitekey' : '6LcjFfcZAAAAANd3KLJV0mimMNAPaRsUSFCtZyBY'
+            });
+        };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
 </section>
