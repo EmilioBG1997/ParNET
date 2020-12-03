@@ -6,7 +6,7 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <table class="table" id="tabla-productos">
+            <table class="table " id="tabla-productos">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -20,4 +20,5 @@
             </table>
         </div>
     </div>
+<script src="Assets/js/productos.js"></script>
 </section>
