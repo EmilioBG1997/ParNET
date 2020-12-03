@@ -25,17 +25,17 @@
     </div>
     <div class = "row text-center">
         <div class = "area-content">
-            <a href="#" class = "area-button">Certificaciones</a>
-            <a href="#" class = "area-button">Telecomunicaciones</a>
-            <a href="#" class = "area-button">Redes Electricas</a>
-            <a href="#" class = "area-button">Circuito Cerrado TV</a>
-            <a href="#" class = "area-button">Corriente Regulada</a>
-            <a href="#" class = "area-button">Data Centers</a>
-            <a href="#" class = "area-button">Fibra Optica</a>
-            <a href="#" class = "area-button">Cables Estructurados</a>
-            <a href="#" class = "area-button">Polizas</a>
-            <a href="#" class = "area-button">Outsourcing</a>
-            <a href="#" class = "area-button">Administracion</a>
+            <a href="#" class = "area-button" id = "certificaciones">Certificaciones</a>
+            <a href="#" class = "area-button" id = "telecomunicaciones">Telecomunicaciones</a>
+            <a href="#" class = "area-button" id = "redes-electricas">Redes Electricas</a>
+            <a href="#" class = "area-button" id = "circuito-cerrado">Circuito Cerrado TV</a>
+            <a href="#" class = "area-button" id = "corriente-regulada">Corriente Regulada</a>
+            <a href="#" class = "area-button" id = "data-centers">Data Centers</a>
+            <a href="#" class = "area-button" id = "fibra-optica">Fibra Optica</a>
+            <a href="#" class = "area-button" id = "cables-estructurados">Cables Estructurados</a>
+            <a href="#" class = "area-button" id = "polizas">Polizas</a>
+            <a href="#" class = "area-button" id = "outsourcing">Outsourcing</a>
+            <a href="#" class = "area-button" id = "administracion">Administracion</a>
         </div>
     </div>
     <div class = "row text-center">
