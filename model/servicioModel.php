@@ -51,11 +51,4 @@ class Servicios extends DbConnection{
         }
     }
 }
-
-$serv = new Servicios();
-print($serv->readServicios());
-print($serv->createServicios("el serv",1,":DDDD"));
-print($serv->deleteServicios(2));
-print($serv->updateServicios(3,"ette",2,":C"))
-
 ?>
