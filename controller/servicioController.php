@@ -1,5 +1,5 @@
 <?php
-require "../model/servicioModel.php"
+require "../model/servicioModel.php";
 $flag = $_POST["flag"];
 $serv = new Servicios();
 switch ($flag) {
@@ -36,7 +36,7 @@ switch ($flag) {
         $nombre = $_POST["nombre"];
         $area = $_POST["area"];
         $descripcion = $_POST["descripcion"];
-        $resultado = $serv->createServicios(,$nombre, $area, $descripcion);
+        $resultado = $serv->createServicios($nombre, $area, $descripcion);
         echo $resultado;
         break;
 
