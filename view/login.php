@@ -15,10 +15,10 @@
             </div>
             <form action="">
                 <label for="email">Email</label>
-                <input type="email" name = "email" maxlength="45">
+                <input type="email" name = "email" id = "email" maxlength="45">
 
                 <label for="password">Contraseña</label>
-                <input type="password" name = "password" maxlenght="30">
+                <input type="password" name = "password" id="password" maxlenght="30">
 
                 <input type="submit" value ="ENVIAR">
 
